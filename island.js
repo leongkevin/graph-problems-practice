@@ -11,6 +11,11 @@ function getNeighbors(row, col, graph) {
   // Return neighbors
 
   // Your code here
+  neighborArr = []
+  if((row > 0) && (graph[row-1][col] === 1)){
+    neighborArr.push([row-1], [col])
+  }
+  
 }
 
 
