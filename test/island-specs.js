@@ -15,7 +15,7 @@ describe('getNeighbors', () => {
     ]
 
   });
-  [row][col]
+
   it('can return adjacent neighbors that contain a 1', () => {
 
     expect(getNeighbors(1, 1, matrix)).to.have.deep.members([[0, 1], [1, 2], [2, 1]])
